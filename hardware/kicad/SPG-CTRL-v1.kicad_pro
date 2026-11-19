@@ -1,0 +1,54 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.15,
+        "copper_line_width": 0.25,
+        "silk_line_width": 0.15
+      },
+      "rules": {
+        "min_clearance": 0.2,
+        "min_copper_edge_clearance": 0.5,
+        "min_hole_clearance": 0.25,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6
+      }
+    },
+    "layer_presets": []
+  },
+  "meta": {
+    "filename": "SPG-CTRL-v1.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "clearance": 0.2,
+        "name": "Default",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.35,
+        "name": "Power_12V_24V",
+        "track_width": 0.8,
+        "via_diameter": 0.9,
+        "via_drill": 0.45
+      },
+      {
+        "clearance": 0.25,
+        "name": "RS485_Diff",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ]
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  }
+}

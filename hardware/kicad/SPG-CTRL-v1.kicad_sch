@@ -1,0 +1,49 @@
+(kicad_sch
+  (version 20231120)
+  (generator "smart-parking-guidance-system")
+  (generator_version "1.0")
+  (uuid "b1c2d3e4-1111-4222-8333-000000000001")
+  (paper "A4")
+  (title_block
+    (title "SPG-CTRL-v1 — Smart Parking Guidance Signage Controller")
+    (date "2026-11-19")
+    (rev "1.0")
+    (company "SmartPark 300")
+    (comment 1 "MCU: ESP32-WROOM-32E (Wi-Fi + UART2 RS-485)")
+    (comment 2 "Comms: SN65HVD72 Half-Duplex RS-485 + SM712 TVS ESD Protection")
+    (comment 3 "Outputs: 6x AO3400A MOSFET Channels (12V/24V R/G/A Directional Arrows)")
+    (comment 4 "Power: 12V-24V DC Input -> MP1584 5V Buck -> AMS1117-3.3 LDO")
+  )
+
+  (text "POWER INPUT STAGE\nJ1: 12V-24V DC Terminal\nD1: SS34 Reverse Polarity\nD2: SMBJ28A Surge TVS\nU1: MP1584EN 5V 3A Buck\nU2: AMS1117-3.3 3.3V LDO"
+    (exclude_from_sim no)
+    (at 30 40 0)
+    (effects (font (size 2 2)) (justify left))
+    (uuid "b1c2d3e4-1111-4222-8333-000000000101")
+  )
+
+  (text "MCU CORE\nU3: ESP32-WROOM-32E\nGPIO17 -> RS485_TX\nGPIO16 <- RS485_RX\nGPIO4  -> RS485_DE_RE\nGPIO25/26 -> ARROW_LEFT_G/R\nGPIO27/14 -> ARROW_STR_G/R\nGPIO12/13 -> ARROW_RIGHT_G/R\nJ2: UART0 Prog Header"
+    (exclude_from_sim no)
+    (at 110 40 0)
+    (effects (font (size 2 2)) (justify left))
+    (uuid "b1c2d3e4-1111-4222-8333-000000000102")
+  )
+
+  (text "RS-485 INDUSTRIAL BUS\nU4: SN65HVD72DR (3.3V)\nD3: SM712-02HTG ESD TVS\nR1: 120R Termination (JP1)\nJ3: 3-Pin Screw Terminal (A/B/GND)"
+    (exclude_from_sim no)
+    (at 30 115 0)
+    (effects (font (size 2 2)) (justify left))
+    (uuid "b1c2d3e4-1111-4222-8333-000000000103")
+  )
+
+  (text "HIGH-CURRENT LED ARROW DRIVERS\nQ1..Q6: AO3400A N-MOSFET (30V 5.7A)\nR2..R7: 100R Gate Resistors\nR8..R13: 10k Pull-Down Resistors\nJ4: 8-Pin 12V/24V Signage Output Header"
+    (exclude_from_sim no)
+    (at 110 115 0)
+    (effects (font (size 2 2)) (justify left))
+    (uuid "b1c2d3e4-1111-4222-8333-000000000104")
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
