@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data & runtime artifacts
+*.db
+*.sqlite3
+*.pt
+*.onnx
+*.mp4
+*.avi
+logs/
+
+# Frontend / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Embedded / Firmware
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/.pio/
+*.o
+*.elf
+*.bin
+
+# KiCad backups & cache
+hardware/kicad/*-backups/
+hardware/kicad/fp-info-cache
+hardware/kicad/*.lck
+hardware/kicad/*.bak
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+.env

@@ -1,0 +1,3980 @@
+{
+  "facility": {
+    "id": "FAC-MAIN-300",
+    "name": "SmartPark Central 300",
+    "total_slots": 300,
+    "layout": "single_level_multi_zone"
+  },
+  "zones": [
+    {
+      "id": "ZONE-A",
+      "code": "A",
+      "name": "Zone A \u2014 North-West",
+      "color": "#22c55e",
+      "total_slots": 75,
+      "camera_ids": [
+        "CAM-01",
+        "CAM-02",
+        "CAM-03"
+      ]
+    },
+    {
+      "id": "ZONE-B",
+      "code": "B",
+      "name": "Zone B \u2014 North-East",
+      "color": "#3b82f6",
+      "total_slots": 75,
+      "camera_ids": [
+        "CAM-04",
+        "CAM-05",
+        "CAM-06"
+      ]
+    },
+    {
+      "id": "ZONE-C",
+      "code": "C",
+      "name": "Zone C \u2014 South-West",
+      "color": "#a855f7",
+      "total_slots": 75,
+      "camera_ids": [
+        "CAM-07",
+        "CAM-08",
+        "CAM-09"
+      ]
+    },
+    {
+      "id": "ZONE-D",
+      "code": "D",
+      "name": "Zone D \u2014 South-East",
+      "color": "#f59e0b",
+      "total_slots": 75,
+      "camera_ids": [
+        "CAM-10",
+        "CAM-11",
+        "CAM-12"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "id": "CAM-01",
+      "name": "A-Aisle-1 Edge Cam",
+      "zone_id": "ZONE-A",
+      "rtsp_url": "rtsp://edge-cam-01.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "A-008",
+        "A-009",
+        "A-010",
+        "A-011",
+        "A-012",
+        "A-013",
+        "A-014",
+        "A-015",
+        "A-016",
+        "A-017",
+        "A-018",
+        "A-019",
+        "A-020",
+        "A-021",
+        "A-022",
+        "A-023",
+        "A-024",
+        "A-025"
+      ]
+    },
+    {
+      "id": "CAM-02",
+      "name": "A-Aisle-2 Edge Cam",
+      "zone_id": "ZONE-A",
+      "rtsp_url": "rtsp://edge-cam-02.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "A-026",
+        "A-027",
+        "A-028",
+        "A-029",
+        "A-030",
+        "A-031",
+        "A-032",
+        "A-033",
+        "A-034",
+        "A-035",
+        "A-036",
+        "A-037",
+        "A-038",
+        "A-039",
+        "A-040",
+        "A-041",
+        "A-042",
+        "A-043",
+        "A-044",
+        "A-045",
+        "A-046",
+        "A-047",
+        "A-048",
+        "A-049",
+        "A-050"
+      ]
+    },
+    {
+      "id": "CAM-03",
+      "name": "A-Aisle-3 Edge Cam",
+      "zone_id": "ZONE-A",
+      "rtsp_url": "rtsp://edge-cam-03.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "A-051",
+        "A-052",
+        "A-053",
+        "A-054",
+        "A-055",
+        "A-056",
+        "A-057",
+        "A-058",
+        "A-059",
+        "A-060",
+        "A-061",
+        "A-062",
+        "A-063",
+        "A-064",
+        "A-065",
+        "A-066",
+        "A-067",
+        "A-068",
+        "A-069",
+        "A-070",
+        "A-071",
+        "A-072",
+        "A-073",
+        "A-074",
+        "A-075"
+      ]
+    },
+    {
+      "id": "CAM-04",
+      "name": "B-Aisle-1 Edge Cam",
+      "zone_id": "ZONE-B",
+      "rtsp_url": "rtsp://edge-cam-04.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007",
+        "B-008",
+        "B-009",
+        "B-010",
+        "B-011",
+        "B-012",
+        "B-013",
+        "B-014",
+        "B-015",
+        "B-016",
+        "B-017",
+        "B-018",
+        "B-019",
+        "B-020",
+        "B-021",
+        "B-022",
+        "B-023",
+        "B-024",
+        "B-025"
+      ]
+    },
+    {
+      "id": "CAM-05",
+      "name": "B-Aisle-2 Edge Cam",
+      "zone_id": "ZONE-B",
+      "rtsp_url": "rtsp://edge-cam-05.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "B-026",
+        "B-027",
+        "B-028",
+        "B-029",
+        "B-030",
+        "B-031",
+        "B-032",
+        "B-033",
+        "B-034",
+        "B-035",
+        "B-036",
+        "B-037",
+        "B-038",
+        "B-039",
+        "B-040",
+        "B-041",
+        "B-042",
+        "B-043",
+        "B-044",
+        "B-045",
+        "B-046",
+        "B-047",
+        "B-048",
+        "B-049",
+        "B-050"
+      ]
+    },
+    {
+      "id": "CAM-06",
+      "name": "B-Aisle-3 Edge Cam",
+      "zone_id": "ZONE-B",
+      "rtsp_url": "rtsp://edge-cam-06.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "B-051",
+        "B-052",
+        "B-053",
+        "B-054",
+        "B-055",
+        "B-056",
+        "B-057",
+        "B-058",
+        "B-059",
+        "B-060",
+        "B-061",
+        "B-062",
+        "B-063",
+        "B-064",
+        "B-065",
+        "B-066",
+        "B-067",
+        "B-068",
+        "B-069",
+        "B-070",
+        "B-071",
+        "B-072",
+        "B-073",
+        "B-074",
+        "B-075"
+      ]
+    },
+    {
+      "id": "CAM-07",
+      "name": "C-Aisle-1 Edge Cam",
+      "zone_id": "ZONE-C",
+      "rtsp_url": "rtsp://edge-cam-07.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-015",
+        "C-016",
+        "C-017",
+        "C-018",
+        "C-019",
+        "C-020",
+        "C-021",
+        "C-022",
+        "C-023",
+        "C-024",
+        "C-025"
+      ]
+    },
+    {
+      "id": "CAM-08",
+      "name": "C-Aisle-2 Edge Cam",
+      "zone_id": "ZONE-C",
+      "rtsp_url": "rtsp://edge-cam-08.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "C-026",
+        "C-027",
+        "C-028",
+        "C-029",
+        "C-030",
+        "C-031",
+        "C-032",
+        "C-033",
+        "C-034",
+        "C-035",
+        "C-036",
+        "C-037",
+        "C-038",
+        "C-039",
+        "C-040",
+        "C-041",
+        "C-042",
+        "C-043",
+        "C-044",
+        "C-045",
+        "C-046",
+        "C-047",
+        "C-048",
+        "C-049",
+        "C-050"
+      ]
+    },
+    {
+      "id": "CAM-09",
+      "name": "C-Aisle-3 Edge Cam",
+      "zone_id": "ZONE-C",
+      "rtsp_url": "rtsp://edge-cam-09.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "C-051",
+        "C-052",
+        "C-053",
+        "C-054",
+        "C-055",
+        "C-056",
+        "C-057",
+        "C-058",
+        "C-059",
+        "C-060",
+        "C-061",
+        "C-062",
+        "C-063",
+        "C-064",
+        "C-065",
+        "C-066",
+        "C-067",
+        "C-068",
+        "C-069",
+        "C-070",
+        "C-071",
+        "C-072",
+        "C-073",
+        "C-074",
+        "C-075"
+      ]
+    },
+    {
+      "id": "CAM-10",
+      "name": "D-Aisle-1 Edge Cam",
+      "zone_id": "ZONE-D",
+      "rtsp_url": "rtsp://edge-cam-10.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "D-001",
+        "D-002",
+        "D-003",
+        "D-004",
+        "D-005",
+        "D-006",
+        "D-007",
+        "D-008",
+        "D-009",
+        "D-010",
+        "D-011",
+        "D-012",
+        "D-013",
+        "D-014",
+        "D-015",
+        "D-016",
+        "D-017",
+        "D-018",
+        "D-019",
+        "D-020",
+        "D-021",
+        "D-022",
+        "D-023",
+        "D-024",
+        "D-025"
+      ]
+    },
+    {
+      "id": "CAM-11",
+      "name": "D-Aisle-2 Edge Cam",
+      "zone_id": "ZONE-D",
+      "rtsp_url": "rtsp://edge-cam-11.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "D-026",
+        "D-027",
+        "D-028",
+        "D-029",
+        "D-030",
+        "D-031",
+        "D-032",
+        "D-033",
+        "D-034",
+        "D-035",
+        "D-036",
+        "D-037",
+        "D-038",
+        "D-039",
+        "D-040",
+        "D-041",
+        "D-042",
+        "D-043",
+        "D-044",
+        "D-045",
+        "D-046",
+        "D-047",
+        "D-048",
+        "D-049",
+        "D-050"
+      ]
+    },
+    {
+      "id": "CAM-12",
+      "name": "D-Aisle-3 Edge Cam",
+      "zone_id": "ZONE-D",
+      "rtsp_url": "rtsp://edge-cam-12.parking.local:554/stream1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 15,
+      "slot_ids": [
+        "D-051",
+        "D-052",
+        "D-053",
+        "D-054",
+        "D-055",
+        "D-056",
+        "D-057",
+        "D-058",
+        "D-059",
+        "D-060",
+        "D-061",
+        "D-062",
+        "D-063",
+        "D-064",
+        "D-065",
+        "D-066",
+        "D-067",
+        "D-068",
+        "D-069",
+        "D-070",
+        "D-071",
+        "D-072",
+        "D-073",
+        "D-074",
+        "D-075"
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ENT-NORTH",
+      "name": "North Main Entrance",
+      "display_node_id": "SIGN-ENT-01",
+      "rs485_address": 1,
+      "mqtt_topic": "parking/displays/entrance/ENT-NORTH",
+      "zones_displayed": [
+        "ZONE-A",
+        "ZONE-B",
+        "ZONE-C",
+        "ZONE-D"
+      ],
+      "recommended_zones": [
+        "ZONE-A",
+        "ZONE-B"
+      ]
+    },
+    {
+      "id": "ENT-SOUTH",
+      "name": "South Main Entrance",
+      "display_node_id": "SIGN-ENT-02",
+      "rs485_address": 2,
+      "mqtt_topic": "parking/displays/entrance/ENT-SOUTH",
+      "zones_displayed": [
+        "ZONE-C",
+        "ZONE-D",
+        "ZONE-A",
+        "ZONE-B"
+      ],
+      "recommended_zones": [
+        "ZONE-C",
+        "ZONE-D"
+      ]
+    }
+  ],
+  "intersections": [
+    {
+      "id": "INT-1",
+      "name": "North Entry Junction",
+      "display_node_id": "SIGN-INT-01",
+      "rs485_address": 11,
+      "mqtt_topic": "parking/displays/intersection/INT-1",
+      "branches": [
+        {
+          "direction": "left",
+          "label": "Zone A (NW)",
+          "zone_ids": [
+            "ZONE-A"
+          ]
+        },
+        {
+          "direction": "straight",
+          "label": "South Zones (C & D)",
+          "zone_ids": [
+            "ZONE-C",
+            "ZONE-D"
+          ]
+        },
+        {
+          "direction": "right",
+          "label": "Zone B (NE)",
+          "zone_ids": [
+            "ZONE-B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INT-2",
+      "name": "Central West Spine",
+      "display_node_id": "SIGN-INT-02",
+      "rs485_address": 12,
+      "mqtt_topic": "parking/displays/intersection/INT-2",
+      "branches": [
+        {
+          "direction": "left",
+          "label": "Zone A (NW)",
+          "zone_ids": [
+            "ZONE-A"
+          ]
+        },
+        {
+          "direction": "straight",
+          "label": "Zone B & D (East)",
+          "zone_ids": [
+            "ZONE-B",
+            "ZONE-D"
+          ]
+        },
+        {
+          "direction": "right",
+          "label": "Zone C (SW)",
+          "zone_ids": [
+            "ZONE-C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INT-3",
+      "name": "Central East Spine",
+      "display_node_id": "SIGN-INT-03",
+      "rs485_address": 13,
+      "mqtt_topic": "parking/displays/intersection/INT-3",
+      "branches": [
+        {
+          "direction": "left",
+          "label": "Zone D (SE)",
+          "zone_ids": [
+            "ZONE-D"
+          ]
+        },
+        {
+          "direction": "straight",
+          "label": "Zone A & C (West)",
+          "zone_ids": [
+            "ZONE-A",
+            "ZONE-C"
+          ]
+        },
+        {
+          "direction": "right",
+          "label": "Zone B (NE)",
+          "zone_ids": [
+            "ZONE-B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INT-4",
+      "name": "South Entry Junction",
+      "display_node_id": "SIGN-INT-04",
+      "rs485_address": 14,
+      "mqtt_topic": "parking/displays/intersection/INT-4",
+      "branches": [
+        {
+          "direction": "left",
+          "label": "Zone D (SE)",
+          "zone_ids": [
+            "ZONE-D"
+          ]
+        },
+        {
+          "direction": "straight",
+          "label": "North Zones (A & B)",
+          "zone_ids": [
+            "ZONE-A",
+            "ZONE-B"
+          ]
+        },
+        {
+          "direction": "right",
+          "label": "Zone C (SW)",
+          "zone_ids": [
+            "ZONE-C"
+          ]
+        }
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "id": "A-001",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-002",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 1,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-003",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-004",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-005",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 4,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-006",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-007",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-008",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-009",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 3,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-010",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 4,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-011",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-012",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-013",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-014",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-015",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-016",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-017",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-018",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-019",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-020",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-021",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-022",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-023",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-024",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-025",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-01",
+      "aisle": "A1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-026",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-027",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-028",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-029",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-030",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-031",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-032",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-033",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-034",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-035",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-036",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-037",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-038",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-039",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-040",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-041",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-042",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-043",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-044",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-045",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-046",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-047",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-048",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-049",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-050",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-02",
+      "aisle": "A2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-051",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-052",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-053",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-054",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-055",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 0
+      }
+    },
+    {
+      "id": "A-056",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-057",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-058",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-059",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-060",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 1
+      }
+    },
+    {
+      "id": "A-061",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-062",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-063",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-064",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-065",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 2
+      }
+    },
+    {
+      "id": "A-066",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-067",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-068",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-069",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-070",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 3
+      }
+    },
+    {
+      "id": "A-071",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-072",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-073",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-074",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 4
+      }
+    },
+    {
+      "id": "A-075",
+      "zone_id": "ZONE-A",
+      "camera_id": "CAM-03",
+      "aisle": "A3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-001",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 16,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-002",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 17,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-003",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 18,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-004",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 19,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-005",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 20,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-006",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 16,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-007",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 17,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-008",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 18,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-009",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 19,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-010",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 20,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-011",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-012",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-013",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-014",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-015",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-016",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-017",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-018",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-019",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-020",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-021",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-022",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-023",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-024",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-025",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-04",
+      "aisle": "B1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-026",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-027",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-028",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-029",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-030",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-031",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-032",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-033",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-034",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-035",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-036",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-037",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-038",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-039",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-040",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-041",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-042",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-043",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-044",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-045",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-046",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-047",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-048",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-049",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-050",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-05",
+      "aisle": "B2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-051",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-052",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-053",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-054",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-055",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 0
+      }
+    },
+    {
+      "id": "B-056",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-057",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-058",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-059",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-060",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 1
+      }
+    },
+    {
+      "id": "B-061",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-062",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-063",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-064",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-065",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 2
+      }
+    },
+    {
+      "id": "B-066",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-067",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-068",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-069",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-070",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 3
+      }
+    },
+    {
+      "id": "B-071",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-072",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-073",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-074",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 4
+      }
+    },
+    {
+      "id": "B-075",
+      "zone_id": "ZONE-B",
+      "camera_id": "CAM-06",
+      "aisle": "B3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 4
+      }
+    },
+    {
+      "id": "C-001",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 0,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-002",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 1,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-003",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 2,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-004",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 3,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-005",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 4,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-006",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 0,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-007",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 1,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-008",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 2,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-009",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 3,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-010",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 4,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-011",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-012",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-013",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-014",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-015",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-016",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-017",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-018",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-019",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-020",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-021",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 0,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-022",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 1,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-023",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 2,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-024",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 3,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-025",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-07",
+      "aisle": "C1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 4,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-026",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-027",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-028",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-029",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-030",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-031",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-032",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-033",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-034",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-035",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-036",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-037",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-038",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-039",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-040",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-041",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-042",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-043",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-044",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-045",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-046",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 5,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-047",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 6,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-048",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 7,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-049",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 8,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-050",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-08",
+      "aisle": "C2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 9,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-051",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-052",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-053",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-054",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-055",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 6
+      }
+    },
+    {
+      "id": "C-056",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-057",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-058",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-059",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-060",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 7
+      }
+    },
+    {
+      "id": "C-061",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-062",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-063",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-064",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-065",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 8
+      }
+    },
+    {
+      "id": "C-066",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-067",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-068",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-069",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-070",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 9
+      }
+    },
+    {
+      "id": "C-071",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 10,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-072",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 11,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-073",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 12,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-074",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 13,
+        "y": 10
+      }
+    },
+    {
+      "id": "C-075",
+      "zone_id": "ZONE-C",
+      "camera_id": "CAM-09",
+      "aisle": "C3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 14,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-001",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 16,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-002",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 17,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-003",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 18,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-004",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "accessible",
+      "map_pos": {
+        "x": 19,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-005",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 20,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-006",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 16,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-007",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 17,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-008",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 18,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-009",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 19,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-010",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "ev_charging",
+      "map_pos": {
+        "x": 20,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-011",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-012",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-013",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-014",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-015",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-016",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-017",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-018",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-019",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-020",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-021",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 16,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-022",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 17,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-023",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 18,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-024",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 19,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-025",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-10",
+      "aisle": "D1",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 20,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-026",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-027",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-028",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-029",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-030",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-031",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-032",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-033",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-034",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-035",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-036",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-037",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-038",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-039",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-040",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-041",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-042",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-043",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-044",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-045",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-046",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 21,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-047",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 22,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-048",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 23,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-049",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 24,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-050",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-11",
+      "aisle": "D2",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 25,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-051",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-052",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-053",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-054",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-055",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 6
+      }
+    },
+    {
+      "id": "D-056",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-057",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-058",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-059",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-060",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 7
+      }
+    },
+    {
+      "id": "D-061",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-062",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-063",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-064",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-065",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 8
+      }
+    },
+    {
+      "id": "D-066",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-067",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-068",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-069",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-070",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 9
+      }
+    },
+    {
+      "id": "D-071",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 26,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-072",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 27,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-073",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 28,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-074",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 29,
+        "y": 10
+      }
+    },
+    {
+      "id": "D-075",
+      "zone_id": "ZONE-D",
+      "camera_id": "CAM-12",
+      "aisle": "D3",
+      "slot_type": "standard",
+      "map_pos": {
+        "x": 30,
+        "y": 10
+      }
+    }
+  ]
+}
