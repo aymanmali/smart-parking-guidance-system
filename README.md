@@ -1,10 +1,13 @@
 # Smart Parking Guidance & Management System
 
 [![CI](https://github.com/aymanmali/smart-parking-guidance-system/actions/workflows/ci.yml/badge.svg)](https://github.com/aymanmali/smart-parking-guidance-system/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?logo=vercel)](https://smart-parking-guidance-system.vercel.app)
 [![Field Deployed](https://img.shields.io/badge/Field%20Deployed-Galleria40%20Mall%20(LEED%20%C2%B7%202019)-16a34a)](docs/case-study-galleria40.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 
 An end-to-end, automated computer-vision parking guidance and management platform for a **300-slot facility** (4 zones × 75 slots, 12 edge cameras, 2 entrance counter displays, and 4 internal intersection directional screens).
+
+- **Live Interactive Demo:** https://smart-parking-guidance-system.vercel.app *(300-slot clickable map, live Entrance & Intersection LED displays, RS-485 CRC-16 hex wire frames, and Galleria40 LEED Case Study)*
 
 > **Stack:** Python · PyTorch · OpenCV · YOLO · FastAPI · React + Vite + Tailwind · ESP32 Embedded C (ESP-IDF) · KiCad PCB Design
 

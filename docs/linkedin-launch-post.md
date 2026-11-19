@@ -1,6 +1,6 @@
 # Marketing & Showcase Kit — SmartPark 300 (Galleria40 LEED Case Study)
 
-Ready-to-use copy for LinkedIn, GitHub, and your resume/portfolio. Replace `<LIVE_VERCEL_URL>` with your live deployment link once published.
+Ready-to-use copy for LinkedIn, GitHub, and your resume/portfolio.
 
 ---
 
@@ -19,7 +19,7 @@ Ready-to-use copy for LinkedIn, GitHub, and your resume/portfolio. Replace `<LIV
 > - **Embedded C Firmware (`ESP32 / ESP-IDF`):** Half-duplex RS-485 frame decoder, MOSFET LED arrow HAL, task watchdog, and 15-second amber offline fallback (+ host-run C unit tests).
 > - **Custom Hardware (`KiCad PCB`):** 2-layer `SPG-CTRL-v1` controller schematic, PCB layout, and production BOM (12–24V buck power stage, ESD-protected RS-485, 6× MOSFET LED arrow drivers).
 >
-> **Try the Live Interactive Demo:** `<LIVE_VERCEL_URL>`  
+> **Try the Live Interactive Demo:** https://smart-parking-guidance-system.vercel.app  
 > *(Try clicking "Zone A Full" on the Intersection Signs tab or toggling any of the 300 slots!)*
 >
 > **Explore the Open-Source Repo:** https://github.com/aymanmali/smart-parking-guidance-system
@@ -34,7 +34,7 @@ Ready-to-use copy for LinkedIn, GitHub, and your resume/portfolio. Replace `<LIV
 >
 > I just open-sourced a modernized reference architecture + interactive live demo where you can watch all 300 slots, Entrance counters, Intersection directional signs, and live RS-485 CRC-16 frames react in real time:
 >
-> Live Demo: `<LIVE_VERCEL_URL>`  
+> Live Demo: https://smart-parking-guidance-system.vercel.app  
 > GitHub: https://github.com/aymanmali/smart-parking-guidance-system
 >
 > `#ComputerVision` `#EmbeddedSystems` `#IoT` `#SmartParking` `#LEED` `#Python` `#FastAPI`
