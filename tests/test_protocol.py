@@ -46,3 +46,18 @@ def test_corrupted_crc_rejected():
     frame[6] ^= 0xFF  # Flip bits in payload
     with pytest.raises(ValueError, match="CRC mismatch"):
         decode_frame(bytes(frame))
+
+
+def test_u16_counters_clamped_to_wire_bounds():
+    entrance = decode_frame(
+        encode_entrance_frame(addr=1, total_free=99999, zone_free=[-5, 70000, 10, 0])
+    )
+    assert entrance["data"]["total_free"] == 0xFFFF
+    assert entrance["data"]["zone_free"] == [0, 0xFFFF, 10, 0]
+
+    intersection = decode_frame(
+        encode_intersection_frame(addr=11, left_free=-1, straight_free=70000, right_free=5)
+    )
+    assert intersection["data"]["left_free"] == 0
+    assert intersection["data"]["straight_free"] == 0xFFFF
+    assert intersection["data"]["right_free"] == 5
