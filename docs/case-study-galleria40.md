@@ -53,10 +53,4 @@ Automated parking guidance directly supports green-building operational goals:
 
 ---
 
-## 5. Installation Media (`docs/media/`)
-
-*(Optional: Add non-sensitive installation photos here—e.g., `entrance-display-2019.jpg`, `intersection-sign-2019.jpg`, `controller-pcb-2019.jpg`—and link them below.)*
-
----
-
 > **Confidentiality & Reference Notice:** This open-source repository and its interactive web simulator represent a modernized reference architecture inspired by the 2019 Galleria40 production deployment. All live data, camera addresses, and test scenarios in this repository are synthetic; no proprietary client footage or private site infrastructure data is exposed.
