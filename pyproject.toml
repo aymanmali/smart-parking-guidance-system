@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Automated computer-vision parking guidance & management system across a 300-slot facility using Python, PyTorch, OpenCV, YOLO, FastAPI, ESP32 Embedded C, and KiCad PCB design."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "MIT" }
+license = "MIT"
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
@@ -27,6 +27,9 @@ dev = [
     "ruff>=0.7.0",
 ]
 
+[tool.setuptools.packages.find]
+include = ["backend*", "cv_engine*"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
@@ -34,3 +37,7 @@ asyncio_mode = "auto"
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
