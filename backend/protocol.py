@@ -42,6 +42,11 @@ def _pack_frame(addr: int, cmd: int, payload: bytes) -> bytes:
     return SOF + body + struct.pack("<H", crc)
 
 
+def _clamp_u16(value: int) -> int:
+    """Clamp a counter to the unsigned 16-bit wire range [0, 65535]."""
+    return min(0xFFFF, max(0, value))
+
+
 def encode_entrance_frame(
     addr: int,
     total_free: int,
@@ -56,11 +61,11 @@ def encode_entrance_frame(
     flags = 0x01 if is_open else 0x00
     payload = struct.pack(
         ">HHHHHB",
-        max(0, total_free),
-        max(0, padded[0]),
-        max(0, padded[1]),
-        max(0, padded[2]),
-        max(0, padded[3]),
+        _clamp_u16(total_free),
+        _clamp_u16(padded[0]),
+        _clamp_u16(padded[1]),
+        _clamp_u16(padded[2]),
+        _clamp_u16(padded[3]),
         flags,
     )
     return _pack_frame(addr, CMD_ENTRANCE_UPDATE, payload)
@@ -89,9 +94,9 @@ def encode_intersection_frame(
         flags |= 0x80
     payload = struct.pack(
         ">HHHB",
-        max(0, left_free),
-        max(0, straight_free),
-        max(0, right_free),
+        _clamp_u16(left_free),
+        _clamp_u16(straight_free),
+        _clamp_u16(right_free),
         flags,
     )
     return _pack_frame(addr, CMD_INTERSECTION_UPDATE, payload)
