@@ -35,6 +35,9 @@ def compute_box_polygon_overlap(
     Uses fast bounding-box pre-check followed by exact OpenCV contour/polygon
     intersection so 25 slots per camera execute in <1 ms on CPU.
     """
+    if box.x2 <= box.x1 or box.y2 <= box.y1:
+        return 0.0
+
     poly_x1, poly_y1 = int(polygon[:, 0].min()), int(polygon[:, 1].min())
     poly_x2, poly_y2 = int(polygon[:, 0].max()), int(polygon[:, 1].max())
 
