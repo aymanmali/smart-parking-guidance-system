@@ -68,3 +68,8 @@ def test_websocket_live_receives_initial_snapshot():
         assert data["facility"]["total_slots"] == 300
         assert len(data["entrances"]) == 2
         assert len(data["intersections"]) == 4
+
+
+def test_step_random_traffic_handles_non_positive_transitions():
+    assert state_manager.step_random_traffic(0) == 0
+    assert state_manager.step_random_traffic(-3) == 0

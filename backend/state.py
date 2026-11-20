@@ -180,6 +180,8 @@ class ParkingStateManager:
 
     def step_random_traffic(self, transitions: int = 3) -> int:
         """Simulate natural arrivals/departures across random slots."""
+        if transitions <= 0:
+            return 0
         now = datetime.now(UTC)
         slot_list = list(self.slots.values())
         chosen = random.sample(slot_list, k=min(transitions, len(slot_list)))
