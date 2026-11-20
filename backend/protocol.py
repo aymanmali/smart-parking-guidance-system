@@ -102,6 +102,13 @@ def encode_intersection_frame(
     return _pack_frame(addr, CMD_INTERSECTION_UPDATE, payload)
 
 
+def encode_heartbeat_frame(addr: int, uptime_sec: int = 0) -> bytes:
+    """Encode CMD=0x03 controller heartbeat frame (4 bytes payload: uptime_sec u32 BE)."""
+    clamped_uptime = min(0xFFFFFFFF, max(0, uptime_sec))
+    payload = struct.pack(">I", clamped_uptime)
+    return _pack_frame(addr, CMD_HEARTBEAT, payload)
+
+
 def decode_frame(frame: bytes) -> dict:
     """Validate SOF + CRC-16 and decode a binary RS-485 frame."""
     if len(frame) < 7:
@@ -143,6 +150,9 @@ def decode_frame(frame: bytes) -> dict:
             "right_open": bool(flags & 0x04),
             "emergency": bool(flags & 0x80),
         }
+    elif cmd == CMD_HEARTBEAT and length == 4:
+        (uptime_sec,) = struct.unpack(">I", payload)
+        result["data"] = {"uptime_sec": uptime_sec}
     else:
         result["raw_payload"] = payload.hex()
 
