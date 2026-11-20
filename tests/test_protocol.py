@@ -4,10 +4,12 @@ import pytest
 
 from backend.protocol import (
     CMD_ENTRANCE_UPDATE,
+    CMD_HEARTBEAT,
     CMD_INTERSECTION_UPDATE,
     crc16_modbus,
     decode_frame,
     encode_entrance_frame,
+    encode_heartbeat_frame,
     encode_intersection_frame,
 )
 
@@ -61,3 +63,12 @@ def test_u16_counters_clamped_to_wire_bounds():
     assert intersection["data"]["left_free"] == 0
     assert intersection["data"]["straight_free"] == 0xFFFF
     assert intersection["data"]["right_free"] == 5
+
+
+def test_heartbeat_frame_roundtrip():
+    frame = encode_heartbeat_frame(addr=255, uptime_sec=86400)
+    decoded = decode_frame(frame)
+    assert decoded["addr"] == 255
+    assert decoded["cmd"] == CMD_HEARTBEAT
+    assert decoded["crc_ok"] is True
+    assert decoded["data"]["uptime_sec"] == 86400
