@@ -20,6 +20,8 @@ def test_box_polygon_overlap():
     assert compute_box_polygon_overlap(full_box, poly) > 0.98
     assert 0.45 <= compute_box_polygon_overlap(half_box, poly) <= 0.55
     assert compute_box_polygon_overlap(miss_box, poly) == 0.0
+    assert compute_box_polygon_overlap(DetectionBox(150, 100, 150, 200, 0.9, "car"), poly) == 0.0
+    assert compute_box_polygon_overlap(DetectionBox(180, 180, 120, 120, 0.9, "car"), poly) == 0.0
 
 
 def test_temporal_hysteresis_prevents_flicker():
